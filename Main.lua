@@ -12,7 +12,7 @@ local function RequireModuleFromID(ID)
 	
 	return module
 end
-
+--[[
 --Replaces textures with H
 local texture = "http://www.roblox.com/asset/?id=1460469885"
 
@@ -60,3 +60,6 @@ for i = 1, #d do
 	end 
 end
 --end here
+]]
+
+
