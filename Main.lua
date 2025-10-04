@@ -18,6 +18,7 @@ local cube = Instance.new("Part", game.Workspace)
 cube.Anchored = true
 cube.Size = Vector3.new(2, 2, 2)
 cube.Name = "H"
+cube.Color = Color3.fromRGB(255, 255, 255)
 
 --[[
 --Replaces textures with H
