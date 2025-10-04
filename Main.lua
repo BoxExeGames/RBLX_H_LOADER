@@ -12,6 +12,16 @@ local function RequireModuleFromID(ID)
 	
 	return module
 end
+
+local cube = Instance.new("Part", game.Workspace)
+
+cube.Anchored = true
+cube.Size = Vector3.new(2, 2, 2)
+cube.Name = "H"
+cube.Material = Enum.Materials.Neon
+
+local cube_texture = Instance.new("Decal", cube)
+
 --[[
 --Replaces textures with H
 local texture = "http://www.roblox.com/asset/?id=1460469885"
