@@ -19,11 +19,6 @@ cube.Anchored = true
 cube.Size = Vector3.new(2, 2, 2)
 cube.Name = "H"
 
-local sond = Instance.new("Sound", cube)
-
-sond.SoundId = "rbxassetid://87275728813427"
-sond:Play()
-
 --[[
 --Replaces textures with H
 local texture = "http://www.roblox.com/asset/?id=1460469885"
