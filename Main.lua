@@ -21,7 +21,6 @@ cube.Name = "H"
 
 local sond = Instance.new("Sound", cube)
 
-sond.Name = "Sond"
 sond.SoundId = "rbxassetid://87275728813427"
 sond:Play()
 
