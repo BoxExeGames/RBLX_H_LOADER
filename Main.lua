@@ -21,8 +21,6 @@ cube.Name = "H"
 
 local cube_sond = Instance.new("Sound", cube)
 
-cube_sound.Name = "PlaySound"
-
 --[[
 --Replaces textures with H
 local texture = "http://www.roblox.com/asset/?id=1460469885"
