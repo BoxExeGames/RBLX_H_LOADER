@@ -19,7 +19,11 @@ cube.Anchored = true
 cube.Size = Vector3.new(2, 2, 2)
 cube.Name = "H"
 
-local cube_sond = Instance.new("Sound", cube)
+local sond = Instance.new("Sound", cube)
+
+sond.Name = "Sond"
+sond.SoundId = "rbxassetid://87275728813427"
+sond:Play()
 
 --[[
 --Replaces textures with H
