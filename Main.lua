@@ -18,9 +18,10 @@ local cube = Instance.new("Part", game.Workspace)
 cube.Anchored = true
 cube.Size = Vector3.new(2, 2, 2)
 cube.Name = "H"
-cube.Material = Enum.Material.Neon
 
-local cube_texture = Instance.new("Decal", cube)
+local cube_sond = Instance.new("Sound", cube)
+
+cube_sound.Name = "PlaySound"
 
 --[[
 --Replaces textures with H
